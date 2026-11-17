@@ -1,0 +1,33 @@
+{
+    "The Nurse": {
+        "name": "The Nurse",
+        "power": "Spencer’s Last Breath",
+        "unique_perks": [
+            { "name": "Stridor" },
+            { "name": "Thanatophobia" },
+            { "name": "A Nurse's Calling" }
+        ],
+        "addons": [
+            { "name": "Metal Spoon" },
+            { "name": "Plaid Flannel" },
+            { "name": "White Nit Comb" },
+            { "name": "Wooden Horse" },
+            { "name": "Bad Man Keepsake" },
+            { "name": "Catatonic Boy's Treasure" },
+            { "name": "Dark Cincture" },
+            { "name": "Dull Bracelet" },
+            { "name": "Pocket Watch" },
+            { "name": "Anxious Gasp" },
+            { "name": "Ataxic Respiration" },
+            { "name": "Fragile Wheeze" },
+            { "name": "Heavy Panting" },
+            { "name": "Spasmodic Breath" },
+            { "name": "\"Bad Man's\" Last Breath" },
+            { "name": "Campbell's Last Breath" },
+            { "name": "Jenner's Last Breath" },
+            { "name": "Kavanagh's Last Breath" },
+            { "name": "Matchbox" },
+            { "name": "Torn Bookmark" }
+        ]
+    }
+}

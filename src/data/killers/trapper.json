@@ -1,0 +1,40 @@
+{
+    "The Trapper": {
+        "name": "The Trapper",
+        "power": "Bear Trap",
+        "unique_perks": [
+            { "name": "Unnerving Presence" },
+            { 
+                "name": "Brutal Strength",
+                "tags": ["generator_kick"]
+            },
+            { "name": "Agitation" }
+        ],
+        "addons": [
+            { "name": "Bear Oil", "rarity": "Common" },
+            { "name": "Makeshift Wrap", "rarity": "Common" },
+            { "name": "Padded Jaws", "rarity": "Common" },
+            { "name": "Trapper Gloves", "rarity": "Common" },
+
+            { "name": "4-Coil Spring Kit", "rarity": "Uncommon" },
+            { "name": "Coffee Grounds", "rarity": "Uncommon" },
+            { "name": "Lengthened Jaws", "rarity": "Uncommon" },
+            { "name": "Serrated Jaws", "rarity": "Uncommon" },
+            { "name": "Wax Brick", "rarity": "Uncommon" },
+
+            { "name": "Fastening Tools", "rarity": "Rare" },
+            { "name": "Rusted Jaws", "rarity": "Rare" },
+            { "name": "Secondary Coil", "rarity": "Rare" },
+            { "name": "Tar Bottle", "rarity": "Rare" },
+            { "name": "Trapper Bag", "rarity": "Rare" },
+
+            { "name": "Honing Stone", "rarity": "Very Rare" },
+            { "name": "Oily Coil", "rarity": "Very Rare" },
+            { "name": "Tension Spring", "rarity": "Very Rare" },
+            { "name": "Trapper Sack", "rarity": "Very Rare" },
+
+            { "name": "Bloody Coil", "rarity": "Ultra Rare" },
+            { "name": "Iridescent Stone", "rarity": "Ultra Rare" }
+        ]
+    }
+}

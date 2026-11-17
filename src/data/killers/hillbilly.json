@@ -1,0 +1,33 @@
+{
+    "The Hillbilly": {
+        "name": "The Hillbilly",
+        "power": "The Chainsaw",
+        "unique_perks": [
+            { "name": "Enduring" },
+            { "name": "Lightborn" },
+            { "name": "Tinkerer" }
+        ],
+        "addons": [
+            { "name": "Counterweight" },
+            { "name": "Cracked Primer Bulb" },
+            { "name": "Discarded Air Filter" },
+            { "name": "Steel Toe Boots" },
+            { "name": "Clogged Intake" },
+            { "name": "Greased Throttle" },
+            { "name": "High-Speed Idler Screw" },
+            { "name": "Off-Brand Motor Oil" },
+            { "name": "Thermal Casing" },
+            { "name": "Begrimed Chains" },
+            { "name": "Dad's Boots" },
+            { "name": "Low Kickback Chains" },
+            { "name": "Ragged Engine" },
+            { "name": "The Thompsons' Mix" },
+            { "name": "Apex Muffler" },
+            { "name": "Filthy Slippers" },
+            { "name": "LoPro Chains" },
+            { "name": "Spiked Boots" },
+            { "name": "Iridescent Engravings" },
+            { "name": "Tuned Carburettor" }
+        ]
+    }
+}

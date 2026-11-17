@@ -1,0 +1,33 @@
+{
+    "The Huntress": {
+        "name": "The Huntress",
+        "power": "Hunting Hatchets",
+        "unique_perks": [
+            { "name": "Beast of Prey" },
+            { "name": "Territorial Imperative" },
+            { "name": "Hex: Huntress Lullaby" }
+        ],
+        "addons": [
+            { "name": "Amanita Toxin" },
+            { "name": "Bandaged Haft" },
+            { "name": "Coarse Stone" },
+            { "name": "Yellowed Cloth" },
+            { "name": "Leather Loop" },
+            { "name": "Manna Grass Braid" },
+            { "name": "Oak Haft" },
+            { "name": "Shiny Pin" },
+            { "name": "Weighted Head" },
+            { "name": "Deerskin Gloves" },
+            { "name": "Flower Babushka" },
+            { "name": "Rose Root" },
+            { "name": "Rusty Head" },
+            { "name": "Venomous Concoction" },
+            { "name": "Begrimed Head" },
+            { "name": "Glowing Concoction" },
+            { "name": "Infantry Belt" },
+            { "name": "Wooden Fox" },
+            { "name": "Iridescent Head" },
+            { "name": "Soldier's Puttee" }
+        ]
+    }
+}
