@@ -10,7 +10,10 @@
                 "name": "Coulrophobia"
             },
             {
-                "name": "Pop Goes the Weasel"
+                "name": "Pop Goes the Weasel",
+                "tags": [
+                    "generator_kick"
+                ]
             }
         ],
         "addons": [

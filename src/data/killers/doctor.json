@@ -10,7 +10,10 @@
                 "name": "Monitor & Abuse"
             },
             {
-                "name": "Overcharge"
+                "name": "Overcharge",
+                "tags": [
+                    "generator_kick"
+                ]
             }
         ],
         "addons": [

@@ -4,7 +4,10 @@
         "power": "Blighted Corruption",
         "unique_perks": [
             {
-                "name": "Dragon's Grip"
+                "name": "Dragon's Grip",
+                "tags": [
+                    "generator_kick"
+                ]
             },
             {
                 "name": "Hex: Blood Favor"

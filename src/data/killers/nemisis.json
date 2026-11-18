@@ -4,7 +4,10 @@
         "power": "T-Virus",
         "unique_perks": [
             {
-                "name": "Eruption"
+                "name": "Eruption",
+                "tags": [
+                    "generator_kick"
+                ]
             },
             {
                 "name": "Hysteria"
