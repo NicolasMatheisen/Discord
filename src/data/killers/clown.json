@@ -1,0 +1,99 @@
+{
+    "The Clown": {
+        "name": "The Clown",
+        "power": "The Afterpiece Tonic",
+        "unique_perks": [
+            {
+                "name": "Bamboozle"
+            },
+            {
+                "name": "Coulrophobia"
+            },
+            {
+                "name": "Pop Goes the Weasel"
+            }
+        ],
+        "addons": [
+            {
+                "name": "Fingerless Parade Gloves",
+                "rarity": "Common"
+            },
+            {
+                "name": "Party Bottle",
+                "rarity": "Common"
+            },
+            {
+                "name": "Robin Feather",
+                "rarity": "Common"
+            },
+            {
+                "name": "VHS Porn",
+                "rarity": "Common"
+            },
+            {
+                "name": "Starling Feather",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Thick Cork Stopper",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Solvent Jug",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Kerosene Can",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Smelly Inner Soles",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Ether 10%",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Garish Makeup Kit",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Spirit of Hartshorn",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Flask of Bleach",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Bottle of Chloroform",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Cheap Gin Bottle",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Sulphuric Acid Vial",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Cigar Box",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Ether 15%",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Tattoo's Middle Finger",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Redhead's Pinky Finger",
+                "rarity": "Ultra Rare"
+            }
+        ]
+    }
+}

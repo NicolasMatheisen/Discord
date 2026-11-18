@@ -1,0 +1,99 @@
+{
+    "The Legion": {
+        "name": "The Legion",
+        "power": "Feral Frenzy",
+        "unique_perks": [
+            {
+                "name": "Discordance"
+            },
+            {
+                "name": "Mad Grit"
+            },
+            {
+                "name": "Iron Maiden"
+            }
+        ],
+        "addons": [
+            {
+                "name": "Friendship Bracelet",
+                "rarity": "Common"
+            },
+            {
+                "name": "Mischief List",
+                "rarity": "Common"
+            },
+            {
+                "name": "Scratched Ruler",
+                "rarity": "Common"
+            },
+            {
+                "name": "Smiley Face Pin",
+                "rarity": "Common"
+            },
+            {
+                "name": "Defaced Smiley Pin",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Etched Ruler",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Julie's Mix Tape",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Never-Sleep Pills",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Joey's Mix Tape",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Nasty Blade",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Susie's Mix Tape",
+                "rarity": "Rare"
+            },
+            {
+                "name": "The Legion Pin",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Cold Dirt",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Filthy Blade",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Frank's Mix Tape",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Stab Wounds Study",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Stolen Sketch Book",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Stylish Sunglasses",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Fuming Mix Tape",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Iridescent Button",
+                "rarity": "Ultra Rare"
+            }
+        ]
+    }
+}

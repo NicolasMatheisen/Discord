@@ -1,0 +1,99 @@
+{
+    "The Ghost Face": {
+        "name": "The Ghost Face",
+        "power": "Night Shroud",
+        "unique_perks": [
+            {
+                "name": "I'm All Ears"
+            },
+            {
+                "name": "Thrilling Tremors"
+            },
+            {
+                "name": "Furtive Chase"
+            }
+        ],
+        "addons": [
+            {
+                "name": "\"Philly\"",
+                "rarity": "Common"
+            },
+            {
+                "name": "Walleye's Matchbook",
+                "rarity": "Common"
+            },
+            {
+                "name": "Cheap Cologne",
+                "rarity": "Common"
+            },
+            {
+                "name": "Headline Cut-Outs",
+                "rarity": "Common"
+            },
+            {
+                "name": "Olsen's Address Book",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Telephoto Lens",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Olsen's Journal",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Marked Map",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Cinch Straps",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Olsen's Wallet",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Chewed Pen",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Lasting Perfume",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Knife Belt Clip",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Leather Knife Sheath",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Driver's License",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Drop-Leg Knife Sheath",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Night Vision Monocular",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Victim's Detailed Routine",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Outdoor Security Camera",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "\"Ghost Face Caught on Tape\"",
+                "rarity": "Ultra Rare"
+            }
+        ]
+    }
+}

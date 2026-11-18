@@ -3,31 +3,97 @@
         "name": "The Nurse",
         "power": "Spencer’s Last Breath",
         "unique_perks": [
-            { "name": "Stridor" },
-            { "name": "Thanatophobia" },
-            { "name": "A Nurse's Calling" }
+            {
+                "name": "Stridor"
+            },
+            {
+                "name": "Thanatophobia"
+            },
+            {
+                "name": "A Nurse's Calling"
+            }
         ],
         "addons": [
-            { "name": "Metal Spoon" },
-            { "name": "Plaid Flannel" },
-            { "name": "White Nit Comb" },
-            { "name": "Wooden Horse" },
-            { "name": "Bad Man Keepsake" },
-            { "name": "Catatonic Boy's Treasure" },
-            { "name": "Dark Cincture" },
-            { "name": "Dull Bracelet" },
-            { "name": "Pocket Watch" },
-            { "name": "Anxious Gasp" },
-            { "name": "Ataxic Respiration" },
-            { "name": "Fragile Wheeze" },
-            { "name": "Heavy Panting" },
-            { "name": "Spasmodic Breath" },
-            { "name": "\"Bad Man's\" Last Breath" },
-            { "name": "Campbell's Last Breath" },
-            { "name": "Jenner's Last Breath" },
-            { "name": "Kavanagh's Last Breath" },
-            { "name": "Matchbox" },
-            { "name": "Torn Bookmark" }
+            {
+                "name": "Metal Spoon",
+                "rarity": "Common"
+            },
+            {
+                "name": "Plaid Flannel",
+                "rarity": "Common"
+            },
+            {
+                "name": "White Nit Comb",
+                "rarity": "Common"
+            },
+            {
+                "name": "Wooden Horse",
+                "rarity": "Common"
+            },
+            {
+                "name": "Bad Man Keepsake",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Catatonic Boy's Treasure",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Dark Cincture",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Dull Bracelet",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Pocket Watch",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Anxious Gasp",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Ataxic Respiration",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Fragile Wheeze",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Heavy Panting",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Spasmodic Breath",
+                "rarity": "Rare"
+            },
+            {
+                "name": "\"Bad Man's\" Last Breath",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Campbell's Last Breath",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Jenner's Last Breath",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Kavanagh's Last Breath",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Matchbox",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Torn Bookmark",
+                "rarity": "Ultra Rare"
+            }
         ]
     }
 }

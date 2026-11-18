@@ -1,0 +1,7 @@
+{
+  "warnings": [
+    {
+        "requiredTags": ["generator_regression", "generator_kick"],
+        "message": "Anti-Synergy: Combining remote/passive regression with generator-kick effects can conflict, as blocked or already regressing generators often prevent you from kicking them."    }
+  ]
+}

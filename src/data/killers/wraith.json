@@ -3,36 +3,97 @@
         "name": "The Wraith",
         "power": "Wailing Bell",
         "unique_perks": [
-        { "name": "Predator" },
-        { "name": "Shadowborn" },
-        { "name": "Bloodhound" }
+            {
+                "name": "Predator"
+            },
+            {
+                "name": "Shadowborn"
+            },
+            {
+                "name": "Bloodhound"
+            }
         ],
         "addons": [
-            { "name": "\"The Beast\" - Soot", "rarity": "Common" },
-            { "name": "\"The Ghost\" - Soot", "rarity": "Common" },
-            { "name": "\"The Hound\" - Soot", "rarity": "Common" },
-            { "name": "\"The Serpent\" - Soot", "rarity": "Common" },
-
-            { "name": "\"Blind Warrior\" - Mud", "rarity": "Uncommon" },
-            { "name": "\"Blink\" - Mud", "rarity": "Uncommon" },
-            { "name": "\"Swift Hunt\" - Mud", "rarity": "Uncommon" },
-            { "name": "\"Windstorm\" - Mud", "rarity": "Uncommon" },
-            { "name": "Bone Clapper", "rarity": "Uncommon" },
-
-            { "name": "\"Blind Warrior\" - White", "rarity": "Rare" },
-            { "name": "\"Blink\" - White", "rarity": "Rare" },
-            { "name": "\"Shadow Dance\" - White", "rarity": "Rare" },
-            { "name": "\"Swift Hunt\" - White", "rarity": "Rare" },
-            { "name": "\"Windstorm\" - White", "rarity": "Rare" },
-
-            { "name": "\"All Seeing\" - Blood", "rarity": "Very Rare" },
-            { "name": "\"Shadow Dance\" - Blood", "rarity": "Very Rare" },
-            { "name": "\"Swift Hunt\" - Blood", "rarity": "Very Rare" },
-            { "name": "\"Windstorm\" - Blood", "rarity": "Very Rare" },
-
-            { "name": "\"All Seeing\" - Spirit", "rarity": "Ultra Rare" },
-            { "name": "Coxcombed Clapper", "rarity": "Ultra Rare" }
+            {
+                "name": "\"The Beast\" - Soot",
+                "rarity": "Common"
+            },
+            {
+                "name": "\"The Ghost\" - Soot",
+                "rarity": "Common"
+            },
+            {
+                "name": "\"The Hound\" - Soot",
+                "rarity": "Common"
+            },
+            {
+                "name": "\"The Serpent\" - Soot",
+                "rarity": "Common"
+            },
+            {
+                "name": "\"Blind Warrior\" - Mud",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "\"Blink\" - Mud",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "\"Swift Hunt\" - Mud",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "\"Windstorm\" - Mud",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Bone Clapper",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "\"Blind Warrior\" - White",
+                "rarity": "Rare"
+            },
+            {
+                "name": "\"Blink\" - White",
+                "rarity": "Rare"
+            },
+            {
+                "name": "\"Shadow Dance\" - White",
+                "rarity": "Rare"
+            },
+            {
+                "name": "\"Swift Hunt\" - White",
+                "rarity": "Rare"
+            },
+            {
+                "name": "\"Windstorm\" - White",
+                "rarity": "Rare"
+            },
+            {
+                "name": "\"All Seeing\" - Blood",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "\"Shadow Dance\" - Blood",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "\"Swift Hunt\" - Blood",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "\"Windstorm\" - Blood",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "\"All Seeing\" - Spirit",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Coxcombed Clapper",
+                "rarity": "Ultra Rare"
+            }
         ]
-
     }
 }

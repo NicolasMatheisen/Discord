@@ -1,0 +1,99 @@
+{
+    "The Oni": {
+        "name": "The Oni",
+        "power": "Yamaoka's Wrath",
+        "unique_perks": [
+            {
+                "name": "Zanshin Tactics"
+            },
+            {
+                "name": "Blood Echo"
+            },
+            {
+                "name": "Nemesis"
+            }
+        ],
+        "addons": [
+            {
+                "name": "Blackened Toenail",
+                "rarity": "Common"
+            },
+            {
+                "name": "Cracked Sakazuki",
+                "rarity": "Common"
+            },
+            {
+                "name": "Paper Lantern",
+                "rarity": "Common"
+            },
+            {
+                "name": "Rotting Rope",
+                "rarity": "Common"
+            },
+            {
+                "name": "Bloody Sash",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Child's Wooden Sword",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Chipped Saihai",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Ink Lion",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Polished Maedate",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Kanai-Anzen Talisman",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Scalped Topknot",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Shattered Wakizashi",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Wooden Oni Mask",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Yamaoka Sashimono",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Akito's Crutch",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Lion Fang",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Splintered Hull",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Tear-Soaked Tenugui",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Iridescent Family Crest",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Renjiro's Bloody Glove",
+                "rarity": "Ultra Rare"
+            }
+        ]
+    }
+}

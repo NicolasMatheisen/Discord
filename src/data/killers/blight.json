@@ -1,0 +1,99 @@
+{
+    "The Blight": {
+        "name": "The Blight",
+        "power": "Blighted Corruption",
+        "unique_perks": [
+            {
+                "name": "Dragon's Grip"
+            },
+            {
+                "name": "Hex: Blood Favor"
+            },
+            {
+                "name": "Hex: Undying"
+            }
+        ],
+        "addons": [
+            {
+                "name": "Placebo Tablet",
+                "rarity": "Common"
+            },
+            {
+                "name": "Foxglove",
+                "rarity": "Common"
+            },
+            {
+                "name": "Compound Seven",
+                "rarity": "Common"
+            },
+            {
+                "name": "Chipped Monocle",
+                "rarity": "Common"
+            },
+            {
+                "name": "Shredded Notes",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Pustula Dust",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Canker Thorn",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Blighted Rat",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Blighted Crow",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Umbra Salts",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Rose Tonic",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Plague Bile",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Compound Twenty-One",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Alchemist's Ring",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Vigo's Journal",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Summoning Stone",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Soul Chemical",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Adrenaline Vial",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Iridescent Blight Tag",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Compound Thirty-Three",
+                "rarity": "Ultra Rare"
+            }
+        ]
+    }
+}

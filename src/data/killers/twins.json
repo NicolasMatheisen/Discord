@@ -1,0 +1,99 @@
+{
+    "The Twins": {
+        "name": "The Twins",
+        "power": "Blood Bond",
+        "unique_perks": [
+            {
+                "name": "Hoarder"
+            },
+            {
+                "name": "Oppression"
+            },
+            {
+                "name": "Coup de Grâce"
+            }
+        ],
+        "addons": [
+            {
+                "name": "Toy Sword",
+                "rarity": "Common"
+            },
+            {
+                "name": "Tiny Fingernail",
+                "rarity": "Common"
+            },
+            {
+                "name": "Soured Milk",
+                "rarity": "Common"
+            },
+            {
+                "name": "Cat Figurine",
+                "rarity": "Common"
+            },
+            {
+                "name": "Cat's Eye",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Madeleine's Glove",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Bloody Black Hood",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Ceremonial Candelabrum",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Baby Teeth",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Stale Biscuit",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Madeleine's Scarf",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Weighty Rattle",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Sewer Sludge",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Rusted Needle",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Forest Stew",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Drop of Perfume",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Spinning Top",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Victor's Soldier",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Silencing Cloth",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Iridescent Pendant",
+                "rarity": "Ultra Rare"
+            }
+        ]
+    }
+}

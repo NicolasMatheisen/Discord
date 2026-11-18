@@ -3,31 +3,97 @@
         "name": "The Huntress",
         "power": "Hunting Hatchets",
         "unique_perks": [
-            { "name": "Beast of Prey" },
-            { "name": "Territorial Imperative" },
-            { "name": "Hex: Huntress Lullaby" }
+            {
+                "name": "Beast of Prey"
+            },
+            {
+                "name": "Territorial Imperative"
+            },
+            {
+                "name": "Hex: Huntress Lullaby"
+            }
         ],
         "addons": [
-            { "name": "Amanita Toxin" },
-            { "name": "Bandaged Haft" },
-            { "name": "Coarse Stone" },
-            { "name": "Yellowed Cloth" },
-            { "name": "Leather Loop" },
-            { "name": "Manna Grass Braid" },
-            { "name": "Oak Haft" },
-            { "name": "Shiny Pin" },
-            { "name": "Weighted Head" },
-            { "name": "Deerskin Gloves" },
-            { "name": "Flower Babushka" },
-            { "name": "Rose Root" },
-            { "name": "Rusty Head" },
-            { "name": "Venomous Concoction" },
-            { "name": "Begrimed Head" },
-            { "name": "Glowing Concoction" },
-            { "name": "Infantry Belt" },
-            { "name": "Wooden Fox" },
-            { "name": "Iridescent Head" },
-            { "name": "Soldier's Puttee" }
+            {
+                "name": "Amanita Toxin",
+                "rarity": "Common"
+            },
+            {
+                "name": "Bandaged Haft",
+                "rarity": "Common"
+            },
+            {
+                "name": "Coarse Stone",
+                "rarity": "Common"
+            },
+            {
+                "name": "Yellowed Cloth",
+                "rarity": "Common"
+            },
+            {
+                "name": "Leather Loop",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Manna Grass Braid",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Oak Haft",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Shiny Pin",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Weighted Head",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Deerskin Gloves",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Flower Babushka",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Rose Root",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Rusty Head",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Venomous Concoction",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Begrimed Head",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Glowing Concoction",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Infantry Belt",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Wooden Fox",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Iridescent Head",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Soldier's Puttee",
+                "rarity": "Ultra Rare"
+            }
         ]
     }
 }

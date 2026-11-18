@@ -1,0 +1,99 @@
+{
+    "The Doctor": {
+        "name": "The Doctor",
+        "power": "Carter's Spark",
+        "unique_perks": [
+            {
+                "name": "Overwhelming Presence"
+            },
+            {
+                "name": "Monitor & Abuse"
+            },
+            {
+                "name": "Overcharge"
+            }
+        ],
+        "addons": [
+            {
+                "name": "\"Calm\" - Class I",
+                "rarity": "Common"
+            },
+            {
+                "name": "\"Order\" - Class I",
+                "rarity": "Common"
+            },
+            {
+                "name": "Maple Knight",
+                "rarity": "Common"
+            },
+            {
+                "name": "Mouldy Electrode",
+                "rarity": "Common"
+            },
+            {
+                "name": "\"Calm\" - Class II",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "\"Discipline\" - Class II",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "\"Order\" - Class II",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "\"Restraint\" - Class II",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Polished Electrode",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "\"Discipline\" - Class III",
+                "rarity": "Rare"
+            },
+            {
+                "name": "\"Restraint\" - Class III",
+                "rarity": "Rare"
+            },
+            {
+                "name": "High Stimulus Electrode",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Interview Tape",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Scrapped Tape",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "\"Calm\" - Carter's Notes",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "\"Discipline\" - Carter's Notes",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "\"Order\" - Carter's Notes",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "\"Restraint\" - Carter's Notes",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Iridescent King",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Iridescent Queen",
+                "rarity": "Ultra Rare"
+            }
+        ]
+    }
+}

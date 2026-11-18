@@ -1,13 +1,22 @@
-import { ContainerBuilder, MessageFlags, SlashCommandBuilder, SeparatorSpacingSize } from 'discord.js';
+import {
+	ContainerBuilder,
+	MessageFlags,
+	SlashCommandBuilder,
+	SeparatorSpacingSize,
+	ActionRowBuilder,
+	ButtonBuilder,
+	ButtonStyle,
+	ComponentType,
+} from 'discord.js';
 import { readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 
+const warningsFile = path.join(process.cwd(), 'src', 'data', 'warnings.json');
 const killersDir = path.join(process.cwd(), 'src', 'data', 'killers');
 const offeringsFile = path.join(killersDir, 'killerOfferings.json');
 
 const perkOptionNames = ['perk1', 'perk2', 'perk3', 'perk4'];
 const addonOptionNames = ['addon1', 'addon2'];
-
 
 async function loadKillers() {
 	const files = (await readdir(killersDir))
@@ -38,6 +47,37 @@ async function loadKillers() {
 async function loadOfferings() {
 	const json = JSON.parse(await readFile(offeringsFile, 'utf8'));
 	return json.offerings ?? [];
+}
+
+async function loadWarnings() {
+	const json = JSON.parse(await readFile(warningsFile, 'utf8'));
+	return Array.isArray(json) ? json : json.warnings ?? [];
+}
+
+function getWarnings(selectedItems, selectedPerks, warningRules) {
+	return warningRules.flatMap((rule) => {
+		const ruleMatches = rule.requiredTags.every((requiredTag) =>
+			selectedItems.some((item) =>
+				item.tags?.includes(requiredTag),
+			),
+		);
+
+		if (!ruleMatches) {
+			return [];
+		}
+
+		const groups = rule.requiredTags.map((tag) => ({
+			tag,
+			perks: selectedPerks
+				.filter((perk) => perk.tags?.includes(tag))
+				.map((perk) => perk.name),
+		}));
+
+		return [{
+			groups,
+			message: rule.message,
+		}];
+	});
 }
 
 export const data = new SlashCommandBuilder()
@@ -278,13 +318,48 @@ export async function execute(interaction) {
 		});
 	}
 
+	const selectedPerkData = killers
+		.flatMap((entry) => entry.data.unique_perks ?? [])
+		.filter((perk) =>
+			normalizedPerks.includes(perk.name.toLowerCase()),
+		);
+
+	const selectedAddonData = killerAddons.filter((addon) =>
+		normalizedAddons.includes(addon.name.toLowerCase()),
+	);
+
+	const selectedItems = [...selectedPerkData, ...selectedAddonData];
+
+	const warnings = getWarnings(
+		selectedItems,
+		selectedPerkData,
+		await loadWarnings(),
+	);
+
+	const warningText = warnings
+		.map(({ groups, message }) => {
+			const groupBlocks = groups.map(({ tag, perks }) => {
+				const header = `**\`{tag}\`**`.replace('{tag}', tag);
+				
+				if (perks.length === 0) {
+					return `${header}\n> \`kein ausgewählter Perk\``;
+				}
+
+				const perkList = perks.map((perk) => `> \`${perk}\``).join('\n');
+				return `${header}\n${perkList}`;
+			}).join('\n\n');
+
+			return `${groupBlocks}\n\n**Problem:** ${message}`;
+		})
+		.join('\n\n');
+
 	const offering = offerings.find(
 		(entry) => entry.name.toLowerCase() === selectedOffering.toLowerCase(),
 	);
 
 	if (!offering) {
 		return interaction.reply({
-			content: 'Offering nicht gefunden.',
+			content: 'Offering not found.',
 			flags: MessageFlags.Ephemeral,
 		});
 	}
@@ -297,46 +372,88 @@ export async function execute(interaction) {
 		.map((addon, index) => `**${index + 1}.** ${addon}`)
 		.join('\n');
 
-	const container = new ContainerBuilder()
-		.setAccentColor(0x8b0000)
-		.addTextDisplayComponents((text) =>
-			text.setContent(
-				`# ${killer.name} — Killer Build`,
-			),
-		)
-		.addSeparatorComponents((separator) =>
-			separator
-				.setDivider(true)
-				.setSpacing(SeparatorSpacingSize.Small),
-		)
-		.addTextDisplayComponents((text) =>
-			text.setContent(
-				`### POWER\n${killer.data.power || 'No power specified'}`,
-			),
-		)
-		.addSeparatorComponents((separator) =>
-			separator
-				.setDivider(true)
-				.setSpacing(SeparatorSpacingSize.Small),
-		)
-		.addTextDisplayComponents((text) =>
-			text.setContent(`### PERKS\n${perkText}`),
-		)
-		.addTextDisplayComponents((text) =>
-			text.setContent(`### ADD-ONS\n${addonText}`),
-		)
-		.addSeparatorComponents((separator) =>
-			separator
-				.setDivider(true)
-				.setSpacing(SeparatorSpacingSize.Small),
-		)
-		.addTextDisplayComponents((text) =>
-			text.setContent(`### OFFERING\n${offering.name}`),
+	const buildContainer = (showWarnings = false) => {
+		const container = new ContainerBuilder()
+			.setAccentColor(0x8b0000);
+
+		if (showWarnings) {
+			container.addTextDisplayComponents((text) =>
+				text.setContent(`### ⚠️ POSSIBLE CONFLICT\n${warningText}`),
+			);
+
+			return container;
+		}
+
+		container
+			.addTextDisplayComponents((text) =>
+				text.setContent(`# ${killer.name} — Killer Build`),
+			)
+			.addSeparatorComponents((separator) =>
+				separator
+					.setDivider(true)
+					.setSpacing(SeparatorSpacingSize.Small),
+			)
+			.addTextDisplayComponents((text) =>
+				text.setContent(
+					`### POWER\n${killer.data.power || 'No power specified'}`,
+				),
+			)
+			.addSeparatorComponents((separator) =>
+				separator
+					.setDivider(true)
+					.setSpacing(SeparatorSpacingSize.Small),
+			)
+			.addTextDisplayComponents((text) =>
+				text.setContent(`### PERKS\n${perkText}`),
+			)
+			.addTextDisplayComponents((text) =>
+				text.setContent(`### ADD-ONS\n${addonText}`),
+			)
+			.addSeparatorComponents((separator) =>
+				separator
+					.setDivider(true)
+					.setSpacing(SeparatorSpacingSize.Small),
+			)
+			.addTextDisplayComponents((text) =>
+				text.setContent(`### OFFERING\n${offering.name}`),
+			);
+
+		return container;
+	};
+
+	const createWarningButton = () =>
+		new ActionRowBuilder().addComponents(
+			new ButtonBuilder()
+				.setCustomId(`show_warnings:${interaction.id}`)
+				.setLabel('⚠️ Show Warnings')
+				.setStyle(ButtonStyle.Secondary),
 		);
 
-	return interaction.reply({
+	const components = [buildContainer()];
+
+	if (warnings.length > 0) {
+		components.push(createWarningButton());
+	}
+
+	await interaction.reply({
 		flags: MessageFlags.IsComponentsV2,
-		components: [container],
+		components,
 	});
 
+	if (warnings.length > 0) {
+		const response = await interaction.fetchReply();
+
+		const collector = response.createMessageComponentCollector({
+			componentType: ComponentType.Button,
+			time: 15 * 60 * 1000,
+			filter: (buttonInteraction) =>
+				buttonInteraction.customId === `show_warnings:${interaction.id}`,
+		});
+
+		collector.on('collect', async (buttonInteraction) => {
+			await buttonInteraction.update({
+				components: [buildContainer(true)],
+			});
+		});
+	}
 }

@@ -3,31 +3,97 @@
         "name": "The Hillbilly",
         "power": "The Chainsaw",
         "unique_perks": [
-            { "name": "Enduring" },
-            { "name": "Lightborn" },
-            { "name": "Tinkerer" }
+            {
+                "name": "Enduring"
+            },
+            {
+                "name": "Lightborn"
+            },
+            {
+                "name": "Tinkerer"
+            }
         ],
         "addons": [
-            { "name": "Counterweight" },
-            { "name": "Cracked Primer Bulb" },
-            { "name": "Discarded Air Filter" },
-            { "name": "Steel Toe Boots" },
-            { "name": "Clogged Intake" },
-            { "name": "Greased Throttle" },
-            { "name": "High-Speed Idler Screw" },
-            { "name": "Off-Brand Motor Oil" },
-            { "name": "Thermal Casing" },
-            { "name": "Begrimed Chains" },
-            { "name": "Dad's Boots" },
-            { "name": "Low Kickback Chains" },
-            { "name": "Ragged Engine" },
-            { "name": "The Thompsons' Mix" },
-            { "name": "Apex Muffler" },
-            { "name": "Filthy Slippers" },
-            { "name": "LoPro Chains" },
-            { "name": "Spiked Boots" },
-            { "name": "Iridescent Engravings" },
-            { "name": "Tuned Carburettor" }
+            {
+                "name": "Counterweight",
+                "rarity": "Common"
+            },
+            {
+                "name": "Cracked Primer Bulb",
+                "rarity": "Common"
+            },
+            {
+                "name": "Discarded Air Filter",
+                "rarity": "Common"
+            },
+            {
+                "name": "Steel Toe Boots",
+                "rarity": "Common"
+            },
+            {
+                "name": "Clogged Intake",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Greased Throttle",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "High-Speed Idler Screw",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Off-Brand Motor Oil",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Thermal Casing",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Begrimed Chains",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Dad's Boots",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Low Kickback Chains",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Ragged Engine",
+                "rarity": "Rare"
+            },
+            {
+                "name": "The Thompsons' Mix",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Apex Muffler",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Filthy Slippers",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "LoPro Chains",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Spiked Boots",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Iridescent Engravings",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Tuned Carburettor",
+                "rarity": "Ultra Rare"
+            }
         ]
     }
 }

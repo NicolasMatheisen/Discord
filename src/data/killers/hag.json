@@ -3,38 +3,100 @@
         "name": "The Hag",
         "power": "Blackened Catalyst",
         "unique_perks": [
-            { "name": "Hex: The Third Seal" },
-            { 
-                "name": "Hex: Ruin",
-                "tags": ["generator_regression"]
+            {
+                "name": "Hex: The Third Seal"
             },
-            { "name": "Hex: Devour Hope" }
+            {
+                "name": "Hex: Ruin",
+                "tags": [
+                    "generator_regression"
+                ]
+            },
+            {
+                "name": "Hex: Devour Hope"
+            }
         ],
         "addons": [
-            { "name": "Bog Water", "rarity": "Common" },
-            { "name": "Dead Fly Mud", "rarity": "Common" },
-            { "name": "Powdered Eggshell", "rarity": "Common" },
-            { "name": "Rope Necklet", "rarity": "Common" },
-
-            { "name": "Bloodied Water", "rarity": "Uncommon" },
-            { "name": "Cypress Necklet", "rarity": "Uncommon" },
-            { "name": "Dragonfly Wings", "rarity": "Uncommon" },
-            { "name": "Half Eggshell", "rarity": "Uncommon" },
-
-            { "name": "Pussy Willow Catkins", "rarity": "Rare" },
-            { "name": "Bloodied Mud", "rarity": "Rare" },
-            { "name": "Cracked Turtle Egg", "rarity": "Rare" },
-            { "name": "Dried Cicada", "rarity": "Rare" },
-            { "name": "Swamp Orchid Necklet", "rarity": "Rare" },
-            { "name": "Willow Wreath", "rarity": "Rare" },
-
-            { "name": "Disfigured Ear", "rarity": "Very Rare" },
-            { "name": "Grandma's Heart", "rarity": "Very Rare" },
-            { "name": "Rusty Shackles", "rarity": "Very Rare" },
-            { "name": "Scarred Hand", "rarity": "Very Rare" },
-
-            { "name": "Mint Rag", "rarity": "Ultra Rare" },
-            { "name": "Waterlogged Shoe", "rarity": "Ultra Rare" }
+            {
+                "name": "Bog Water",
+                "rarity": "Common"
+            },
+            {
+                "name": "Dead Fly Mud",
+                "rarity": "Common"
+            },
+            {
+                "name": "Powdered Eggshell",
+                "rarity": "Common"
+            },
+            {
+                "name": "Rope Necklet",
+                "rarity": "Common"
+            },
+            {
+                "name": "Bloodied Water",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Cypress Necklet",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Dragonfly Wings",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Half Eggshell",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Pussy Willow Catkins",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Bloodied Mud",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Cracked Turtle Egg",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Dried Cicada",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Swamp Orchid Necklet",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Willow Wreath",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Disfigured Ear",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Grandma's Heart",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Rusty Shackles",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Scarred Hand",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Mint Rag",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Waterlogged Shoe",
+                "rarity": "Ultra Rare"
+            }
         ]
     }
 }

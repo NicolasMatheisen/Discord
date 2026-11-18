@@ -1,0 +1,99 @@
+{
+  "The Cannibal - Leatherface": {
+    "name": "The Cannibal - Leatherface",
+    "power": "Bubba's Chainsaw",
+    "unique_perks": [
+      {
+        "name": "Knock Out"
+      },
+      {
+        "name": "Barbecue & Chili"
+      },
+      {
+        "name": "Franklin's Demise"
+      }
+    ],
+    "addons": [
+      {
+        "name": "Chainsaw File",
+        "rarity": "Common"
+      },
+      {
+        "name": "Spark Plug",
+        "rarity": "Common"
+      },
+      {
+        "name": "Speed Limiter",
+        "rarity": "Common"
+      },
+      {
+        "name": "Vegetable Oil",
+        "rarity": "Common"
+      },
+      {
+        "name": "Chilli",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Homemade Muffler",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Knife Scratches",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Long Guide Bar",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Primer Bulb",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Begrimed Chains",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Grisly Chains",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Shop Lubricant",
+        "rarity": "Rare"
+      },
+      {
+        "name": "The Beast's Marks",
+        "rarity": "Rare"
+      },
+      {
+        "name": "The Grease",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Award-winning Chilli",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Depth Gauge Rake",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Light Chassis",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Rusted Chains",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Carburettor Tuning Guide",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Iridescent Flesh",
+        "rarity": "Ultra Rare"
+      }
+    ]
+  }
+}

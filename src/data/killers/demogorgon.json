@@ -1,0 +1,91 @@
+{
+    "The Demogorgon": {
+        "name": "The Demogorgon",
+        "power": "Of the Abyss",
+        "unique_perks": [
+            {
+                "name": "Surge"
+            },
+            {
+                "name": "Cruel Limits"
+            },
+            {
+                "name": "Mindbreaker"
+            }
+        ],
+        "addons": [
+            {
+                "name": "Rat Liver",
+                "rarity": "Common"
+            },
+            {
+                "name": "Rat Tail",
+                "rarity": "Common"
+            },
+            {
+                "name": "Rotten Green Tripe",
+                "rarity": "Common"
+            },
+            {
+                "name": "Sticky Lining",
+                "rarity": "Common"
+            },
+            {
+                "name": "Barb's Glasses",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Black Heart",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Mews' Guts",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Violet Waxcap",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Deer Lung",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Lifeguard Whistle",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Thorny Vines",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Unknown Egg",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Eleven's Soda",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Luminous Webcap",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Upside Down Resin",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Vermilion Webcap",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Leprose Lichen",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Red Moss",
+                "rarity": "Ultra Rare"
+            }
+        ]
+    }
+}

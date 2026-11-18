@@ -1,5 +1,8 @@
 {
   "offerings": [
-    { "name": "Beispiel Offering", "rarity": "Rare" }
+    {
+      "name": "Beispiel Offering",
+      "rarity": "Rare"
+    }
   ]
 }

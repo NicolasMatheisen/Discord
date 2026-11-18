@@ -1,0 +1,99 @@
+{
+    "The Executioner - Pyramid Head": {
+        "name": "The Executioner - Pyramid Head",
+        "power": "Rites of Judgement",
+        "unique_perks": [
+            {
+                "name": "Forced Penance"
+            },
+            {
+                "name": "Trail of Torment"
+            },
+            {
+                "name": "Deathbound"
+            }
+        ],
+        "addons": [
+            {
+                "name": "Black Strap",
+                "rarity": "Common"
+            },
+            {
+                "name": "Copper Ring",
+                "rarity": "Common"
+            },
+            {
+                "name": "Dead Butterfly",
+                "rarity": "Common"
+            },
+            {
+                "name": "Lead Ring",
+                "rarity": "Common"
+            },
+            {
+                "name": "Cinderella Music Box",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Forgotten Videotape",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Leopard-Print Fabric",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Spearhead",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Wax Doll",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Burning Man Painting",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Mannequin Foot",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Misty Day, Remains of Judgment",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Tablet of the Oppressor",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Valtiel Sect Photograph",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Crimson Ceremony Book",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Lost Memories Book",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Rust-Coloured Egg",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Scarlet Egg",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Iridescent Seal of Metatron",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Obsidian Goblet",
+                "rarity": "Ultra Rare"
+            }
+        ]
+    }
+}

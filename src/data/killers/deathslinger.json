@@ -1,0 +1,99 @@
+{
+    "The Deathslinger": {
+        "name": "The Deathslinger",
+        "power": "The Redeemer",
+        "unique_perks": [
+            {
+                "name": "Gearhead"
+            },
+            {
+                "name": "Dead Man's Switch"
+            },
+            {
+                "name": "Hex: Retribution"
+            }
+        ],
+        "addons": [
+            {
+                "name": "Modified Ammo Belt",
+                "rarity": "Common"
+            },
+            {
+                "name": "Rickety Chain",
+                "rarity": "Common"
+            },
+            {
+                "name": "Snake Oil",
+                "rarity": "Common"
+            },
+            {
+                "name": "Spit Polish Rag",
+                "rarity": "Common"
+            },
+            {
+                "name": "Chewing Tobacco",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Jaw Smasher",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Marshal's Badge",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Poison Oak Leaves",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Rusted Spike",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Bayshore's Gold Tooth",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Honey Locust Thorn",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Tin Oil Can",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Wanted Poster",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Warden's Keys",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Barbed Wire",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Bayshore's Cigar",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Gold Creek Whiskey",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Prison Chain",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Hellshire Iron",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Iridescent Coin",
+                "rarity": "Ultra Rare"
+            }
+        ]
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "The Nightmare - Freddy Krueger": {
+        "name": "The Nightmare - Freddy Krueger",
+        "power": "Dream Demon",
+        "unique_perks": [
+            {
+                "name": "Fire Up"
+            },
+            {
+                "name": "Remember Me"
+            },
+            {
+                "name": "Blood Warden"
+            }
+        ],
+        "addons": [
+            {
+                "name": "Garden Rake",
+                "rarity": "Common"
+            },
+            {
+                "name": "Kid's Drawing",
+                "rarity": "Common"
+            },
+            {
+                "name": "Sheep Block",
+                "rarity": "Common"
+            },
+            {
+                "name": "Wool Shirt",
+                "rarity": "Common"
+            },
+            {
+                "name": "Cat Block",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Green Dress",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Nancy's Sketch",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Outdoor Rope",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Prototype Claws",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Blue Dress",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Jump Rope",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Nancy's Masterpiece",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Paint Thinner",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Unicorn Block",
+                "rarity": "Rare"
+            },
+            {
+                "name": "\"Z\" Block",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Class Photo",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Pill Bottle",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Swing Chains",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Black Box",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Red Paint Brush",
+                "rarity": "Ultra Rare"
+            }
+        ]
+    }
+}

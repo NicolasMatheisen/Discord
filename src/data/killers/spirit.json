@@ -1,0 +1,99 @@
+{
+    "The Spirit": {
+        "name": "The Spirit",
+        "power": "Yamaoka's Haunting",
+        "unique_perks": [
+            {
+                "name": "Spirit Fury"
+            },
+            {
+                "name": "Hex: Haunted Ground"
+            },
+            {
+                "name": "Rancor"
+            }
+        ],
+        "addons": [
+            {
+                "name": "Gifted Bamboo Comb",
+                "rarity": "Common"
+            },
+            {
+                "name": "Origami Crane",
+                "rarity": "Common"
+            },
+            {
+                "name": "Shiawase Amulet",
+                "rarity": "Common"
+            },
+            {
+                "name": "Zōri",
+                "rarity": "Common"
+            },
+            {
+                "name": "Juniper Bonsai",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Kaiun Talisman",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Muddy Sports Day Cap",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Rin's Broken Watch",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Katana Tsuba",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Mother's Glasses",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Rusty Flute",
+                "rarity": "Rare"
+            },
+            {
+                "name": "White Hair Ribbon",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Dried Cherry Blossom",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Furin",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Kintsugi Teacup",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Senko Hanabi",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Uchiwa",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Yakuyoke Amulet",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Mother-Daughter Ring",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Wakizashi Saya",
+                "rarity": "Ultra Rare"
+            }
+        ]
+    }
+}

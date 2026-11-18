@@ -1,0 +1,99 @@
+{
+  "The Trickster": {
+    "name": "The Trickster",
+    "power": "Showstopper",
+    "unique_perks": [
+      {
+        "name": "Starstruck"
+      },
+      {
+        "name": "Hex: Crowd Control"
+      },
+      {
+        "name": "No Way Out"
+      }
+    ],
+    "addons": [
+      {
+        "name": "Inferno Wires",
+        "rarity": "Common"
+      },
+      {
+        "name": "Killing Part Chords",
+        "rarity": "Common"
+      },
+      {
+        "name": "Memento Blades",
+        "rarity": "Common"
+      },
+      {
+        "name": "Trick Pouch",
+        "rarity": "Common"
+      },
+      {
+        "name": "Bloody Boa",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Caged Heart Shoes",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Ji-Woon's Autograph",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Melodious Murder",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Ripper Brace",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Edge of Revival Album",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Fizz-Spin Soda",
+        "rarity": "Rare"
+      },
+      {
+        "name": "On Target Single",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Tequila Moonrock",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Waiting for You Watch",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Cut Thru U Single",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Death Throes Compilation",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Diamond Cufflinks",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Lucky Blade",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Iridescent Photocard",
+        "rarity": "Ultra Rare"
+      },
+      {
+        "name": "Trick Blades",
+        "rarity": "Ultra Rare"
+      }
+    ]
+  }
+}

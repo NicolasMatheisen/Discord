@@ -1,0 +1,99 @@
+{
+	"The Pig - Amanda Young": {
+		"name": "The Pig - Amanda Young",
+		"power": "Jigsaw's Baptism",
+		"unique_perks": [
+			{
+				"name": "Scourge Hook: Hangman's Trick"
+			},
+			{
+				"name": "Surveillance"
+			},
+			{
+				"name": "Make Your Choice"
+			}
+		],
+		"addons": [
+			{
+				"name": "Combat Straps",
+				"rarity": "Common"
+			},
+			{
+				"name": "Interlocking Razor",
+				"rarity": "Common"
+			},
+			{
+				"name": "John's Medical File",
+				"rarity": "Common"
+			},
+			{
+				"name": "Shattered Syringe",
+				"rarity": "Common"
+			},
+			{
+				"name": "Face Mask",
+				"rarity": "Uncommon"
+			},
+			{
+				"name": "Last Will",
+				"rarity": "Uncommon"
+			},
+			{
+				"name": "Razor Wires",
+				"rarity": "Uncommon"
+			},
+			{
+				"name": "Utility Blades",
+				"rarity": "Uncommon"
+			},
+			{
+				"name": "Workshop Grease",
+				"rarity": "Rare"
+			},
+			{
+				"name": "Bag of Gears",
+				"rarity": "Rare"
+			},
+			{
+				"name": "Rules Set No. 2",
+				"rarity": "Rare"
+			},
+			{
+				"name": "Rusty Attachments",
+				"rarity": "Rare"
+			},
+			{
+				"name": "Jigsaw's Annotated Plan",
+				"rarity": "Very Rare"
+			},
+			{
+				"name": "Slow-Release Toxin",
+				"rarity": "Very Rare"
+			},
+			{
+				"name": "Tampered Timer",
+				"rarity": "Very Rare"
+			},
+			{
+				"name": "Video Tape",
+				"rarity": "Very Rare"
+			},
+			{
+				"name": "Amanda's Letter",
+				"rarity": "Ultra Rare"
+			},
+			{
+				"name": "Amanda's Secret",
+				"rarity": "Ultra Rare"
+			},
+			{
+				"name": "Crate of Gears",
+				"rarity": "Ultra Rare"
+			},
+			{
+				"name": "Jigsaw's Sketch",
+				"rarity": "Ultra Rare"
+			}
+		]
+	}
+}

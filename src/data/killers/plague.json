@@ -1,0 +1,99 @@
+{
+    "The Plague": {
+        "name": "The Plague",
+        "power": "Vile Purge",
+        "unique_perks": [
+            {
+                "name": "Corrupt Intervention"
+            },
+            {
+                "name": "Infectious Fright"
+            },
+            {
+                "name": "Dark Devotion"
+            }
+        ],
+        "addons": [
+            {
+                "name": "Healing Salve",
+                "rarity": "Common"
+            },
+            {
+                "name": "Limestone Seal",
+                "rarity": "Common"
+            },
+            {
+                "name": "Olibanum Incense",
+                "rarity": "Common"
+            },
+            {
+                "name": "Prayer Tablet Fragment",
+                "rarity": "Common"
+            },
+            {
+                "name": "Blessed Apple",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Emetic Potion",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Haematite Seal",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Potent Tincture",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Prophylactic Amulet",
+                "rarity": "Uncommon"
+            },
+            {
+                "name": "Ashen Apple",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Exorcism Amulet",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Incensed Ointment",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Infected Emetic",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Rubbing Oil",
+                "rarity": "Rare"
+            },
+            {
+                "name": "Devotee's Amulet",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Severed Toe",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Vile Emetic",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Worship Tablet",
+                "rarity": "Very Rare"
+            },
+            {
+                "name": "Black Incense",
+                "rarity": "Ultra Rare"
+            },
+            {
+                "name": "Iridescent Seal",
+                "rarity": "Ultra Rare"
+            }
+        ]
+    }
+}
