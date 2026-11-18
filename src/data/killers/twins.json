@@ -9,7 +9,8 @@
             {
                 "name": "Oppression",
                 "tags": [
-                    "generator_kick"
+                    "generator_kick",
+                    "generator_regression"
                 ]
             },
             {

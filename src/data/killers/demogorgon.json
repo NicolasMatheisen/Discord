@@ -4,7 +4,10 @@
         "power": "Of the Abyss",
         "unique_perks": [
             {
-                "name": "Surge"
+                "name": "Surge",
+                 "tags": [
+                    "generator_regression"
+                ]
             },
             {
                 "name": "Cruel Limits"
